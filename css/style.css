@@ -25,12 +25,12 @@ h1{
 
 /*Style the images*/
 img{
-    height: 200px;
-    width:auto;
-    border: 3px solid blue;
-    padding: 25px;
+    height: 150px;
+    width: 200px;
+    padding: 5px;
     border-radius: 10px;
     margin: 10px;
+	display: inline-block;
 }
 
 /*Make the h2 heading match h1*/
@@ -47,7 +47,7 @@ p, h1, h2 {
 /*Add borders around the main components and some
 space too*/
 header, nav, main, h1, footer{
-	border: 2px solid grey;
+
 	margin: 10px 0;
 }
 
@@ -55,16 +55,18 @@ header, nav, main, h1, footer{
 /*Change the styling for all of the list 
 items in the nav section*/
 nav li{
-	background-color: #ECFF4D;
+	background-color: #ffe695;
 	padding:10px;
 	width:25%;
-	border:1px solid black;
 	display: inline-block;
 	width: 20%;
 }
-
+.me{
+	width:200px;
+	height:250px;
+}
 
 
 /*Added this so the links stay the same color*/
-a:visited{color:#0000FF}
+a:visited{color:#ff9900}
 
